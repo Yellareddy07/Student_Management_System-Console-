@@ -4,8 +4,8 @@ import java.sql.DriverManager;
 
 public class DBConnection {
     private static final String url="jdbc:mysql://localhost:3306/projectsdb";
-    private static final String username="root";
-    private static final String password="root1";
+    private static final String username="yourusername";
+    private static final String password="urpassword";
 
     public static Connection getConnection() {
         Connection connection = null;
