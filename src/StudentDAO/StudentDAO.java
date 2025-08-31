@@ -79,7 +79,7 @@ public class StudentDAO {
         PreparedStatement ps= con.prepareStatement(sql)){
             ps.setInt(1,id);
             ps.executeUpdate();
-            System.out.println("✅ Student deleted successfully.");
+            System.out.println("Student deleted successfully.");
 
         }
         catch (Exception e) {
