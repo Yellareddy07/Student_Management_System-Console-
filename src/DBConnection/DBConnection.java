@@ -3,9 +3,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DBConnection {
-    private static final String url="jdbc:mysql://localhost:3306/projectsdb";
-    private static final String username="yourusername";
-    private static final String password="urpassword";
+    private static final String url="jdbc:mysql://localhost:3306/first";
+    private static final String username="root";
+    private static final String password="Root@1234";
 
     public static Connection getConnection() {
         Connection connection = null;
