@@ -2,7 +2,7 @@ create database projectsdb;
 
 use projectsdb;
 
-create Table Student(
+create Table student(
 	id int auto_increment primary key,
 	name varchar(20) not null,
     age int not null,
