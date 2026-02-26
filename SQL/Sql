@@ -8,3 +8,5 @@ create Table student(
     age int not null,
     grade varchar(10) not null
     );
+
+ALTER TABLE students ADD UNIQUE(name, age, grade);
