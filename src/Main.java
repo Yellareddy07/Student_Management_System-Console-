@@ -76,9 +76,7 @@ public class Main {
     System.out.println("5. Exit");
     System.out.print("Enter choice: ");
 
-    if (!scanner.hasNextInt()) {
-        break; // prevents Jenkins crash
-    }
+    
 
     int choice = scanner.nextInt();
 
